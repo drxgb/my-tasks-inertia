@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    @apply h-screen flex flex-col justify-between;
+}
+
+.alert-info {
+    @apply border-blue-200 bg-blue-500 text-blue-100;
+}
+
+.alert-success {
+    @apply border-green-200 bg-green-500 text-green-100;
+}
+
+.alert-warning {
+    @apply border-amber-700 bg-amber-400 text-amber-600;
+}
+
+.alert-danger {
+    @apply border-red-200 bg-red-400 text-red-100;
+}
